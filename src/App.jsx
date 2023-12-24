@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import NavBar from './components/NavBar'
-import Hero from './components/Hero'
-import UpcomingEvents from './components/UpcomingEvents'
-import Slider from './components/Slider'
-import AboutUs from './components/AboutUs'
+import NavBar from './components/MainFiles/NavBar'
+import HeroSection from './components/MainFiles/HeroSection'
+import UpcomingEvents from './components/MainFiles/UpcomingEvents'
+import Slider from './components/MainFiles/Slider'
+import AboutUs from './components/MainFiles/AboutUs'
+import Footer from './components/MainFiles/Footer'
+import ContactUs from './components/MainFiles/ContactUs'
 import './App.css'
-
 // NavBar
 // Hero
 // Upcoming
@@ -17,11 +18,12 @@ function App() {
   return (
    <>
     <NavBar/>
-    <Hero/>
+    <HeroSection/>
     <UpcomingEvents/>
     <Slider/>
     <AboutUs/>
-
+    <ContactUs/>
+    <Footer/>
    </>
   )
 }
