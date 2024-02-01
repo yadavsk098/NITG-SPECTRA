@@ -1,4 +1,4 @@
-# [React + Vite](https://nitg-spectra.vercel.app/)
+# [Link](https://nitg-spectra.vercel.app/)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
